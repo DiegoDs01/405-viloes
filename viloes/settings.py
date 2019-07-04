@@ -123,4 +123,4 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, MEDIA_URL)
-django_keroku.settings(locals())
+django_heroku.settings(locals())
