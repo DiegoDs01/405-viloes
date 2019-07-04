@@ -15,7 +15,7 @@ class Vilao(models.Model):
         ('ak47', 'AK47'),
         ('almofada', 'Almofada'),
         ('outros', 'Outros'),
-        ('desarmado', 'Desarmado')
+        ('desarmado', 'Desarmado'),
     ]
 
     nivel_valor = [
